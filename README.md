@@ -28,7 +28,7 @@ Enter in the downloaded repository folder and run `start.sh`:
 ./start.sh 2
 ```
 
-First paramter is the interval in seconds of the timer.
+First parameter is the interval in seconds of the timer.
 
 ## Utility
 
