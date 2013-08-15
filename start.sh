@@ -19,8 +19,7 @@ function check {
 }
 
 function play {
-  $1 beep-1.wav 2>/dev/null &
-  sleep 3 && kill $!
+  $1 beep-1.wav 2>/dev/null 1>>$LOGFILE &
 }
 
 hosts=(`ip route | grep default | awk '{print $3}'` "google.com" "stackoverflow.com")
