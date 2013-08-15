@@ -3,7 +3,7 @@ Internet Connection
 
 A small script that plays a beep when there is no Internet connection
 
-## Instalation
+## Installation
 
 1. Download this repository using `git clone` or  clicking on [this link](https://github.com/IonicaBizau/internet-connection/archive/master.zip).:
 ```
@@ -25,10 +25,10 @@ sudo apt-get install mplayer
 Enter in the downloaded repository folder and run `start.sh`:
 
 ```
-./run.sh 2
+./start.sh 2
 ```
 
-First paramter is the interval in seconds of the timer.
+First parameter is the interval in seconds of the timer.
 
 ## Utility
 
