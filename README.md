@@ -25,7 +25,7 @@ sudo apt-get install mplayer
 Enter in the downloaded repository folder and run `start.sh`:
 
 ```
-./run.sh 2
+./start.sh 2
 ```
 
 First paramter is the interval in seconds of the timer.
