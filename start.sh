@@ -8,6 +8,9 @@
 # Follow me on Github :: github.com/IonicaBizau
 # ==========================
 
+echo "> Daemon started"
+echo ""
+
 for (( ; ; ))
 do
     sleep $1
