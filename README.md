@@ -10,14 +10,10 @@ A small script that plays a beep when there is no Internet connection
 git clone git@github.com:IonicaBizau/internet-connection.git
 ```
 
-2. Install `wget`:
-```
-sudo apt-get install wget
-``` 
 3. Install `mplayer`: 
 
 ```
-sudo apt-get install mplayer
+$ sudo apt-get install mplayer
 ```
 
 ## How to use
@@ -25,10 +21,13 @@ sudo apt-get install mplayer
 Enter in the downloaded repository folder and run `start.sh`:
 
 ```
-./start.sh 2
+$ ./start.sh &
 ```
-
-First parameter is the interval in seconds of the timer.
+Or add `./start.sh` to start at boot:
+```
+$ crontab -e
+```
+Then add `@reboot` followed by path to `start.sh` script.
 
 ## Utility
 
