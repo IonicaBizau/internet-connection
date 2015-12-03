@@ -1,12 +1,5 @@
 #!/bin/bash
 
-#############################
-# Check Internet Connectivity
-#############################
-# A small script that plays a beep when there is no Internet connection
-#
-# Follow me on Github :: github.com/IonicaBizau
-# ==========================
 LOGFILE=$HOME'/internet-connection.log'
 
 if ! which mplayer > /dev/null; then

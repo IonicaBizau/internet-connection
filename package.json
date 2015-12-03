@@ -1,0 +1,23 @@
+{
+  "name": "internet-connection",
+  "version": "1.0.0",
+  "description": "Internet Connection ===================",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/IonicaBizau/internet-connection.git"
+  },
+  "keywords": [
+    "internet",
+    "connection"
+  ],
+  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/IonicaBizau/internet-connection/issues"
+  },
+  "homepage": "https://github.com/IonicaBizau/internet-connection#readme"
+}
