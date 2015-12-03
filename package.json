@@ -1,7 +1,7 @@
 {
   "name": "internet-connection",
   "version": "1.0.0",
-  "description": "Internet Connection ===================",
+  "description": "A small script that plays a beep when there is no Internet connection",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -19,5 +19,64 @@
   "bugs": {
     "url": "https://github.com/IonicaBizau/internet-connection/issues"
   },
-  "homepage": "https://github.com/IonicaBizau/internet-connection#readme"
+  "homepage": "https://github.com/IonicaBizau/internet-connection#readme",
+  "blah": {
+    "description": [
+      {
+        "h2": "Installation"
+      },
+      {
+        "ol": [
+          [
+            "Download this repository using `git clone` or  clicking on [this link](https://github.com/IonicaBizau/internet-connection/archive/master.zip).",
+            {
+              "code": {
+                "language": "sh",
+                "content": "git clone git@github.com:IonicaBizau/internet-connection.git"
+              }
+            }
+          ],
+          [
+            "Install `mplayer`:",
+            {
+              "code": {
+                "language": "sh",
+                "content": "sudo apt-get install mplayer"
+              }
+            }
+          ]
+        ]
+      },
+      {
+        "h2": "How to use"
+      },
+      {
+        "p": "Enter in the downloaded repository folder and run `start.sh`:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": "./start.sh &"
+        }
+      },
+      {
+        "p": "Or add `./start.sh` to start at boot:"
+      },
+      {
+        "code": {
+          "language": "sh",
+          "content": "crontab -e"
+        }
+      },
+      {
+        "p": "Then add `@reboot` followed by path to `start.sh` script."
+      },
+      {
+        "h2": "Utility"
+      },
+      {
+        "p": "The script will play a sound when the Internet connectivity is stopped."
+      }
+    ]
+  }
 }
