@@ -1,6 +1,6 @@
-# internet-connection [![Support this project][donate-now]][paypal-donations]
+# internet-connection [![PayPal](https://img.shields.io/badge/%24-paypal-f39c12.svg)][paypal-donations] [![Version](https://img.shields.io/npm/v/internet-connection.svg)](https://www.npmjs.com/package/internet-connection) [![Downloads](https://img.shields.io/npm/dt/internet-connection.svg)](https://www.npmjs.com/package/internet-connection) [![Get help on Codementor](https://cdn.codementor.io/badges/get_help_github.svg)](https://www.codementor.io/johnnyb?utm_source=github&utm_medium=button&utm_term=johnnyb&utm_campaign=github)
 
-A small script that plays a beep when there is no Internet connection
+> A small script that plays a beep when there is no Internet connection
 
 ## Installation
 
