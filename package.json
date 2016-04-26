@@ -1,8 +1,8 @@
 {
   "name": "internet-connection",
-  "version": "1.1.1",
+  "version": "1.1.2",
   "description": "A small script that plays a beep when there is no Internet connection",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
@@ -78,5 +78,16 @@
         "p": "The script will play a sound when the Internet connectivity is stopped."
       }
     ]
-  }
+  },
+  "files": [
+    "bin/",
+    "app/",
+    "lib/",
+    "dist/",
+    "src/",
+    "resources/",
+    "menu/",
+    "cli.js",
+    "index.js"
+  ]
 }
