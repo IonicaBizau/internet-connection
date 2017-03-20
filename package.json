@@ -1,6 +1,6 @@
 {
   "name": "internet-connection",
-  "version": "1.1.5",
+  "version": "1.1.6",
   "description": "A small script that plays a beep when there is no Internet connection",
   "main": "lib/index.js",
   "scripts": {
@@ -14,7 +14,7 @@
     "internet",
     "connection"
   ],
-  "author": "Ionică Bizău <bizauionica@gmail.com> (http://ionicabizau.net)",
+  "author": "Ionică Bizău <bizauionica@gmail.com> (https://ionicabizau.net)",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/IonicaBizau/internet-connection/issues"
@@ -83,12 +83,11 @@
     "bin/",
     "app/",
     "lib/",
-    "build/",
     "dist/",
     "src/",
+    "scripts/",
     "resources/",
     "menu/",
-    "scripts/",
     "cli.js",
     "index.js"
   ]
