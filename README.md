@@ -15,6 +15,7 @@
     ```sh
     sudo apt-get install mplayer
     ```
+
 ## How to use
 
 Enter in the downloaded repository folder and run `start.sh`:
