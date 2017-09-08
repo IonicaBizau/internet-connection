@@ -1,6 +1,6 @@
 {
   "name": "internet-connection",
-  "version": "1.1.7",
+  "version": "1.1.8",
   "description": "A small script that plays a beep when there is no Internet connection",
   "main": "lib/index.js",
   "scripts": {
@@ -89,6 +89,9 @@
     "resources/",
     "menu/",
     "cli.js",
-    "index.js"
+    "index.js",
+    "bloggify.js",
+    "bloggify.json",
+    "bloggify/"
   ]
 }
