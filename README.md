@@ -9,16 +9,20 @@
 
 ## Installation
 
+
  1. Download this repository using `git clone` or  clicking on [this link](https://github.com/IonicaBizau/internet-connection/archive/master.zip).
     ```sh
     git clone git@github.com:IonicaBizau/internet-connection.git
     ```
+
  2. Install `mplayer`:
     ```sh
     sudo apt-get install mplayer
     ```
 
+
 ## How to use
+
 
 Enter in the downloaded repository folder and run `start.sh`:
 
@@ -26,15 +30,18 @@ Enter in the downloaded repository folder and run `start.sh`:
 ./start.sh &
 ```
 
+
 Or add `./start.sh` to start at boot:
 
 ```sh
 crontab -e
 ```
 
+
 Then add `@reboot` followed by path to `start.sh` script.
 
 ## Utility
+
 
 The script will play a sound when the Internet connectivity is stopped.
 
